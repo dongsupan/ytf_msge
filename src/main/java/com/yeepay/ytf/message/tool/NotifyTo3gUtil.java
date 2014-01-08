@@ -17,7 +17,7 @@ public class NotifyTo3gUtil {
 
 		private 	static String  notifyUrl="http://boss3g.yeepay.com/notifier-boss/notify";
 		private	 static String userName="ytfytf";
-		private static String notifyRuleNameResert="易托付-密码重置 "; //code=900
+		private static String notifyRuleNameResert="易托付-密码重置"; //code=900
 		private static String notifyRuleNameOpen="易托付-账号开通";   
 		private static String notifyRuleName="易托付-动态码";
 		private static String notifyRuleNameInvite="易托付-邀请";

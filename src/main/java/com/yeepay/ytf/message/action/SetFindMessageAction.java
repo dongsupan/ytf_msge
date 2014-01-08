@@ -29,7 +29,7 @@ public class SetFindMessageAction{
 			String msge=msg;
 			HashMap<String,String> MsgParams=new HashMap<String,String>();
 //		    MsgParams.put("name", name);
-//		    MsgParams.put("phone", recipientstr);
+		    MsgParams.put("phone", phone);
 		    MsgParams.put("message", msg);
 			String response=null;
 			

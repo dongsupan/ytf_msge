@@ -15,8 +15,8 @@ import java.util.Properties;
  */
 public class NotifyTo3gUtil {
 
-		private 	static String  notifyUrl="http://boss3g.yeepay.com/notifier-boss/notify";
-		private	 static String userName="ytfytf";
+		private static String  notifyUrl="http://boss3g.yeepay.com/notifier-boss/notify";
+		private	static String userName="ytfytf";
 		private static String notifyRuleNameResert="易托付-密码重置"; //code=900
 		private static String notifyRuleNameOpen="易托付-账号开通";   
 		private static String notifyRuleName="易托付-动态码";
@@ -24,6 +24,7 @@ public class NotifyTo3gUtil {
 		private static String notifyRuleNameCheck="易托付-审核";
 		private static String notifyRuleNameCause="易托付-审核原因";
 		private static String notifyRuleAlertU="易托付-提醒上传";
+		private static String notifyRuleAcctError="易托付-账户交易异常";
 		private static String scretKey = "ytf123456";
 		/**
 		 * 
@@ -62,6 +63,7 @@ public class NotifyTo3gUtil {
 						CodeParams.put("5", notifyRuleNameCheck);
 						CodeParams.put("6", notifyRuleNameCause);
 						CodeParams.put("7", notifyRuleAlertU);
+						CodeParams.put("8", notifyRuleAcctError);
 						 /*
 						  * 数字签名加密
 						  */
